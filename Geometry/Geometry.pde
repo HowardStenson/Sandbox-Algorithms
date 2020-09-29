@@ -1,19 +1,20 @@
 //Global Variables
 
 void setup() {
-  //size (500,400);
-  fullScreen();
-  println("width is",displayWidth, "height is", displayHeight);
+  size (900, 600);
+  //fullScreen();
+  println("Screen Width is", displayWidth, "Screen Height is", displayHeight);
   //rect();
-  //ellipse();
+  ellipse(width/2, height/2, height, height);
   
 }//End setup
 
 void draw() {
+  
 }//End draw
 
 void keyPressed() {
-}//End keyPressed
+}//End keypressed
 
 void mousePressed() {
 }//End mousePressed 
