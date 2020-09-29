@@ -1,8 +1,12 @@
 //Global Variables
 
 void setup() {
-  size (500,400);
+  //size (500,400);
+  fullScreen();
   println("width is",displayWidth, "height is", displayHeight);
+  //rect();
+  //ellipse();
+  
 }//End setup
 
 void draw() {
