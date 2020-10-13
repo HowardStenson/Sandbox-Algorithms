@@ -1,4 +1,5 @@
 void population() {
+  //HO
   faceX = width/2;
   faceY = height/2;
   faceDiameter = height;
